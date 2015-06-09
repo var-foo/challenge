@@ -1,0 +1,12 @@
+<h1>User Registration Form</h1>
+<form name="registrationForm" novalidate>
+    <div>
+        <label>First Name</label>
+        <input name="firstName" ng-model="user.firstName"/>
+    </div>
+    <div>
+        <label>Last Name</label>
+        <input name="lastName" ng-model="user.lastName"/>
+    </div>
+    <button ng-click="submitForm()">Submit</button>
+</form>
